@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/news01" />
+
+    <TextView
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ph"
+        android:singleLine="true"
+        android:text="2015年5月18日外交部发言人洪磊主持例行记者会(组图)"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt"
+        android:layout_toRightOf="@id/ph"
+        android:textSize="12sp"
+        android:maxLines="2"
+        android:text="外交部发言人洪磊主持例行记者会问：日前，中方宣布5月16日至8月1日为南海伏季休渔期。越南外交部对此表示反对，并称中方此举侵犯越方主权权利和管辖权。中方对此有何回应？答：中方在南海... " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ph"
+        android:layout_below="@id/nr"
+        android:layout_toRightOf="@id/ph"
+        android:background="@mipmap/biz_topic_vote_show_org" />
+
+    <TextView
+        android:id="@+id/rq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nr"
+        android:textSize="10sp"
+        android:text="00:39:42" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
